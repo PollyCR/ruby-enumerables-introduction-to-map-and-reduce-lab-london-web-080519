@@ -30,3 +30,6 @@ end
 return array 
 end 
 
+def reduce_to_total(array)
+  i = 
+
