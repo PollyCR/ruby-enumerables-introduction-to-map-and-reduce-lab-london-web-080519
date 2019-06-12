@@ -49,8 +49,8 @@ def reduce_to_all_true(array)
     if array[i] = true 
       new << array[i]
       i+=1 
-    end
   else return false 
+  end 
   end 
   return new 
 end 
