@@ -32,7 +32,7 @@ end
 return new 
 end 
 
-def reduce_to_total(array)
+def reduce_to_total(array,starting_point = 0)
   i = 0 
    new = []
   while i < array.length do 
