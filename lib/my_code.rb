@@ -34,6 +34,7 @@ def reduce_to_total(array)
   i = 0 
   while i < array.length do 
     array[i] = array[i] + array[i-1]
+    array.pop[i-1]
     i+=1
   end 
   return array
