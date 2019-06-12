@@ -50,6 +50,7 @@ def reduce_to_all_true(array)
       new << array[i]
       i+=1 
     end
+  else return false 
   end 
   return new 
 end 
