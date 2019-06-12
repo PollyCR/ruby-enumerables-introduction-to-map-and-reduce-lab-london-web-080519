@@ -35,10 +35,10 @@ def reduce_to_total(array)
   i = 0 
    new = []
   while i < array.length do 
-new += 
+new += array[i]
     i+=1
   end 
-  return array
+  return new
 end 
 
 
