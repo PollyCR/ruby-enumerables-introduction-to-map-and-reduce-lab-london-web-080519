@@ -31,5 +31,12 @@ return array
 end 
 
 def reduce_to_total(array)
-  i = 
+  i = 0 
+  while i < array.length do 
+    array[i] = array[i] + array[i-1]
+    return array
+    
+  end 
+end 
+
 
