@@ -46,8 +46,7 @@ def reduce_to_all_true(array)
   i = 0 
   new = []
   while i < array.length do 
-    return false if array[i] !
- 
+    return false if !array[i]
   end 
   end 
   return new 
