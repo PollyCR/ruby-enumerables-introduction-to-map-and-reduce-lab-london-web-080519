@@ -11,3 +11,12 @@ def map_to_no_change(array)
   return array 
 
 end
+
+def map_to_double
+  i = 0  
+while i < array.length do
+  array[i] = array[i] * 2 
+  i += 1
+end
+return array 
+end 
