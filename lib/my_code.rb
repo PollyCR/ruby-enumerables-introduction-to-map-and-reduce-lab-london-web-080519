@@ -45,5 +45,12 @@ end
 def reduce_to_all_true(array)
   i = 0 
   while i < array.length do 
-    if 
+    if array[i] = true 
+      new << array[i]
+      i+=1 
+    end
+  end 
+  return new 
+end 
+
 
