@@ -50,7 +50,8 @@ def reduce_to_all_true(array)
       new << array[i]
       i+=1 
  end 
- if new.length == 0 return false 
+ if new.length == 0
+   return false 
   end 
   end 
   return new 
